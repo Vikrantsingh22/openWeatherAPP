@@ -2,6 +2,13 @@
 
 OpenWeatherAPP is a weather application built with React, utilizing React Query for API data fetching and Zustand for state management. It offers a clean and responsive layout, providing users with insights into current weather conditions and a 5-day forecast.
 
+## Deployed Link:
+ https://vikrant-weather-app.vercel.app/
+
+
+ ## Allow Location access while using the website
+
+
 ## Installation
 
 1. Clone the repository:
