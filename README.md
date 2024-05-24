@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# OpenWeatherAPP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+OpenWeatherAPP is a weather application built with React, utilizing React Query for API data fetching and Zustand for state management. It offers a clean and responsive layout, providing users with insights into current weather conditions and a 5-day forecast.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
 
-## Expanding the ESLint configuration
+   ```
+   git clone https://github.com/Vikrantsingh22/openWeatherAPP.git
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Install dependencies:
 
-- Configure the top-level `parserOptions` property like this:
+   ```
+   npm install
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Run the development server:
+   ```
+   npm run dev
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Features
+
+- **5-Day Forecast:** Get a detailed forecast for the next 5 days, including temperature, wind speed, and more.
+  ![alt text](https://i.imgur.com/cgncBqI.png)
+- **City Search:** Easily switch between the current weather and weather for other cities by searching for their names.
+  ![alt text](https://i.imgur.com/I0x9WdE.png)
+- **City List:** Provides a list of cities if there are multiple cities with the same name, ensuring accurate weather data.Example Belgrade that is in Serbia as well as in Montana.
+  ![alt text](https://i.imgur.com/qfcmx58.png)
+- **Responsive Design:** Offers a clean and responsive layout, ensuring a seamless experience across devices.
+- **Data Visualization:** Monitor the 5-day forecast with a line graph visualization, showing weather trends over time.
+
+## About
+
+OpenWeatherAPP provides users with comprehensive weather information in an intuitive interface. By leveraging React Query and Zustand, it offers real-time updates and a smooth user experience.
